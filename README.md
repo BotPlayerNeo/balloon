@@ -27,7 +27,7 @@ B站直播弹幕命令行版
 }
 ```
 
-可以使用如下JS代码，在[B站](bilibili.com)打开F12获取，其中`SESSDATA`无法通过JS获取,需要在F12-Application-Storage-Cookies中搜索`SESSDATA`,并将对应的Value值手动复制到json文件中.
+可以使用如下JS代码，在[B站](https://www.bilibili.com)打开F12获取，其中`SESSDATA`无法通过JS获取,需要在F12-Application-Storage-Cookies中搜索`SESSDATA`,并将对应的Value值手动复制到json文件中.
 
 ```javascript
 console.log(JSON.stringify(document.cookie.split(';').reduce((prev, current) => {
